@@ -36,6 +36,41 @@
     margin-bottom: 12px;
 }
 
+.banner{
+    background-image: url("../img/banner.jpg");
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-size: cover;
+    width: 100%;
+    height: 230px;
+    background-position: center;
+}
+
+.banner-txt{
+    display: inline-block;
+    width: 800px;
+    margin-top: 125px;
+}
+
+.banner-txt-big{
+    font-size: 17px;
+    width: 60%;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.banner-txt-small{
+    font-size: 10px;
+    width: 60%;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Lato', sans-serif;
+}
+
 .maxi-box{
     margin-bottom: 5px;
 }
@@ -74,9 +109,10 @@
 }
 
 .debug .txt-area{
-    background-color: rgba(225,214,122,255);
+   /* background-color: rgba(225,214,122,255);*/
     height: 230px;
 }
+
 
 .debug .maxi-box{
     background-color: rgba(171,207,231,255);
