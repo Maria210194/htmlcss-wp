@@ -9,47 +9,41 @@
     margin: auto;
 }
 
-.debug .container {
-    border: 2px dashed red;
-    
-}
-
-.header{
+.logo{
     margin-bottom: 12px;
     margin-top: 12px;
+    background-color: white;
+}
+
+.logo li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 15px 5px 0px;
+}
+
+.logo li a{
+    color: rgba(209,209,209,255);
+    text-decoration: none;
+    font-size: 12px;
 
 }
 
-.debug .header{
-    background-color: rgba(229,121,230,255);
-    height: 70px;
+.img-logo{
+    width: 85px;
 }
 
 .txt-area{
     margin-bottom: 12px;
 }
 
-.debug .txt-area{
-    background-color: rgba(225,214,122,255);
-    height: 230px;
-
-
-}
-
 .maxi-box{
     margin-bottom: 5px;
-}
-
-.debug .maxi-box{
-    background-color: rgba(171,207,231,255);
-    height: 320px;
 }
 
 .clearfix::after{
     content: "";
     clear:both;
     display: table;
-
 }
 
 .inner-float-small{
@@ -65,6 +59,30 @@
     margin-top: 50px;
 }
 
+.footer{
+    margin-bottom: 12px;
+}
+
+.debug .container {
+    border: 2px dashed red;
+    
+}
+
+.debug .logo{
+  /*  background-color: rgba(229,121,230,255); 
+    height: 70px; */
+}
+
+.debug .txt-area{
+    background-color: rgba(225,214,122,255);
+    height: 230px;
+}
+
+.debug .maxi-box{
+    background-color: rgba(171,207,231,255);
+    height: 320px;
+}
+
 .debug .inner-float{
     height: 270px;
     border: 10px solid rgba(5,135,246,255);
@@ -74,14 +92,8 @@
     height: 270px;
     border: 10px solid rgba(5,135,246,255);
 }
-}
-
-.footer{
-    margin-bottom: 12px;
-}
 
 .debug .footer{
     background-color: rgba(136,1,254,255);
     height: 30px;
-
 }
