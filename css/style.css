@@ -44,12 +44,14 @@
     width: 100%;
     height: 230px;
     background-position: center;
+    border-radius: 10px;
 }
 
 .banner-txt{
     display: inline-block;
     width: 800px;
     margin-top: 125px;
+    margin-left: 30px;
 }
 
 .banner-txt-big{
@@ -81,17 +83,23 @@
     display: table;
 }
 
+.head-float{
+    float: inline-start;
+    width: 100%;
+    height: 58px;
+}
+
 .inner-float-small{
     float: left;
     width: 20%;
     border: 7px solid rgba(5,135,246,255);
-    margin-top: 50px;
+
 }
 
 .inner-float{
     float: left;
     width: 60%;
-    margin-top: 50px;
+
 }
 
 .footer{
@@ -119,13 +127,18 @@
     height: 320px;
 }
 
+.debug .head-float{
+    background-color: black;
+}
+
 .debug .inner-float{
-    height: 270px;
-    border: 10px solid rgba(5,135,246,255);
+    height: 262px;
+    border-top: 10px solid rgba(5,135,246,255);
+    border-bottom: 10px solid rgba(5,135,246,255);
 }
 
 .debug .inner-float-small{
-    height: 270px;
+    height: 262px;
     border: 10px solid rgba(5,135,246,255);
 }
 
