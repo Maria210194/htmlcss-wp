@@ -38,11 +38,11 @@
 
 .banner{
     background-image: url("../img/banner.jpg");
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: overlay;
     background-size: cover;
     width: 100%;
-    height: 230px;
+    height: 245px;
     background-position: center;
     border-radius: 10px;
 }
@@ -50,7 +50,7 @@
 .banner-txt{
     display: inline-block;
     width: 800px;
-    margin-top: 125px;
+    margin-top: 145px;
     margin-left: 30px;
 }
 
@@ -110,27 +110,63 @@
     font-family: 'Lato', sans-serif;
 }
 
-.inner-float-small{
-    float: left;
-    width: 20%;
-    border: 7px solid rgba(5,135,246,255);
-
-}
 
 .col-img-small{
-    height: 90px;
+    height: 40%;
     background-image: url("../img/img-1.jpg");
     background-color: rgba(0, 0, 0, 0.2);
     background-blend-mode: overlay;
     background-size: cover;
     backdrop-filter: none;
+    border-radius: 5px;
     
 }
 
-.inner-float{
+.col-img-small-2{
+    height: 40%;
+    background-image: url("../img/img-3.jpg");
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-size: cover;
+    backdrop-filter: none;
+    border-radius: 5px;
+
+}
+
+.txt-col-small , .txt-col-big {
+    height: 90px;
+    background-color: white;
+    color: rgba(195,195,195,255);
+    font-size: 8px;
+}
+
+.col-img-big{
+    height: 40%;
+    width: 100%;
+    background-image: url("../img/banner-2.jpg");
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+#small-title{
+    font-size: 18px bold;
+}
+
+.inner-float {
     float: left;
     width: 60%;
+    height: 262px;
+    padding: 5px;
+}
 
+.inner-float-small{
+    float: left;
+    width: 20%;
+    height: 262px;
+    padding: 5px;
 }
 
 .footer{
@@ -154,7 +190,7 @@
 
 
 .debug .maxi-box{
-    background-color: rgba(171,207,231,255);
+    /*background-color: rgba(171,207,231,255);*/
     height: 320px;
 }
 
@@ -162,6 +198,7 @@
     background-color: black;
 }
 
+/*
  .debug .inner-float{
     height: 262px;
     border-top: 10px solid rgba(5,135,246,255);
@@ -172,6 +209,7 @@
     height: 262px;
     border: 10px solid rgba(5,135,246,255);
 }
+*/
 
 .debug .footer{
     background-color: rgba(136,1,254,255);
