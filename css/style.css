@@ -38,7 +38,7 @@
 
 .banner{
     background-image: url("../img/banner.jpg");
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     background-blend-mode: overlay;
     background-size: cover;
     width: 100%;
@@ -154,6 +154,11 @@
     font-size: 8px;
 }
 
+h3{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
 .col-img-big{
     height: 40%;
     width: 100%;
@@ -166,6 +171,7 @@
 }
 
 .footer{
+    margin-top: 50px;
     margin-bottom: 12px;
     font-size: 8px;
     color: black;
